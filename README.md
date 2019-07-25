@@ -5,12 +5,14 @@
   1.npm i vp-data-service
   
   2.在vue项目的根文件(App.vue)进行插件的初始化(进行后台地址的配置)
+  
     2.1 引入插件
        import {dataService} from 'vp-data-service';
     2.2 初始化(在created事件中执行)
        dataService.init('后台java项目地址');
   
   3.在功能模块中具体使用:
+  
     3.1 引入插件
       import {dataService} from 'vp-data-service';
       
